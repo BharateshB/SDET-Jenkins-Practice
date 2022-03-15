@@ -9,4 +9,14 @@ public class Jenkins2Test {
 		
 		System.out.println("this is from jenkins2");
 	}
+	
+
+	@Test
+	public void jenkins3() {
+		
+		System.out.println("this is from jenkins3");
+	}
+
+	
+	
 }
