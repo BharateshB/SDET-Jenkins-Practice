@@ -7,16 +7,8 @@ public class Jenkins2Test {
 	@Test
 	public void jenkins2() {
 		
-		System.out.println("this is from jenkins2");
+	String BROWSER= System.getProperty("browser");
+	System.out.println(BROWSER);
+	
 	}
-	
-
-	@Test
-	public void jenkins3() {
-		
-		System.out.println("this is from jenkins3");
-	}
-
-	
-	
 }
