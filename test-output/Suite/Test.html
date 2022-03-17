@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 03 21:22:08 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>83 seconds (83948 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.ContactTests.CreateConWithOrgTestNGTest.createConWithOrgTestNGTest()'><b>createConWithOrgTestNGTest</b><br>Test class: com.crm.ContactTests.CreateConWithOrgTestNGTest<br/>
+<a href="#Output-640161448" onClick='toggleBox("Output-640161448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-640161448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-640161448">
+createConWithOrgTestNGTest--- testscript execution started<br/>
+organzation is verified<br/>
+contact is verified<br/>
+createConWithOrgTestNGTest--- testscript execution sucessfull - PASS<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.crm.ContactTests.CreateConWithOrgTestNGTest@5d0a1059</td></tr>
+<tr>
+<td title='com.crm.ContactTests.CreateContactTestNGTest.createContactTestNGTest()'><b>createContactTestNGTest</b><br>Test class: com.crm.ContactTests.CreateContactTestNGTest<br/>
+<a href="#Output-77029509" onClick='toggleBox("Output-77029509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-77029509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-77029509">
+createContactTestNGTest--- testscript execution started<br/>
+contact is verified<br/>
+createContactTestNGTest--- testscript execution sucessfull - PASS<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.crm.ContactTests.CreateContactTestNGTest@1de76cc7</td></tr>
+<tr>
+<td title='com.crm.OrganizationTests.CreateorgWithIndTestNGTest.createorgWithIndTestNGTest()'><b>createorgWithIndTestNGTest</b><br>Test class: com.crm.OrganizationTests.CreateorgWithIndTestNGTest<br/>
+<a href="#Output-1923810797" onClick='toggleBox("Output-1923810797", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1923810797" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1923810797">
+createorgWithIndTestNGTest--- testscript execution started<br/>
+clicked on organization link<br/>
+clicked on new organization<br/>
+organization is created<br/>
+organization verified successfully<br/>
+createorgWithIndTestNGTest--- testscript execution sucessfull - PASS<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.crm.OrganizationTests.CreateorgWithIndTestNGTest@209da20d</td></tr>
+<tr>
+<td title='com.crm.OrganizationTests.CreateOrgTestNGTest.createOrgTestNGTest()'><b>createOrgTestNGTest</b><br>Test class: com.crm.OrganizationTests.CreateOrgTestNGTest<br/>
+<a href="#Output-254952533" onClick='toggleBox("Output-254952533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-254952533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-254952533">
+createOrgTestNGTest--- testscript execution started<br/>
+Organization is created<br/>
+organization is verified<br/>
+createOrgTestNGTest--- testscript execution sucessfull - PASS<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.crm.OrganizationTests.CreateOrgTestNGTest@485966cc</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Suite">
+
+  <test thread-count="2" parallel="classes" name="Test1">
+  <parameter name = "browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.ContactTests.CreateConWithOrgTestNGTest"/>
+      <class name="com.crm.ContactTests.CreateContactTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" parallel="classes" name="Test2">
+  <parameter name = "browser" value ="firefox"/>
+    <classes>
+       <class name="com.crm.ContactTests.CreateConWithOrgTestNGTest"/>
+      <class name="com.crm.ContactTests.CreateContactTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
